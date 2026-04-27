@@ -17,4 +17,4 @@ yline(Td, '--r', 'LineWidth', 1.5, 'Label', sprintf("T_{deseada} = %d°C", Td));
 yline(M,'--g','LineWidth', 1.5, 'Label', sprintf("T_{ambiente}=%d ºC",M));
 xline(tf,'--p','LineWidth', 1.5, 'Label', sprintf("T_{T}=%.2f m",tf));
 grid on;
-fprintf("La pizza tardará %.2f minutos en enfriarse a %d°C\n", tf, Td);
+fprintf("La comida tardará %.2f minutos en enfriarse a %d°C\n", tf, Td);
