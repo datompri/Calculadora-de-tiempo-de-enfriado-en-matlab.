@@ -1,4 +1,16 @@
+%% CALCULADORA DE ENFRIAMIENTO (LEY DE ENFRIAMIENTO DE NEWTON)
+% 
+% Descripción:
+% Este script modela, calcula y grafica el proceso térmico de enfriamiento 
+% de un cuerpo (comida) a lo largo del tiempo utilizando la Ley de 
+% Enfriamiento de Newton.
+%
+% Modelo matemático:
+% T(t) = (T0 - M) * exp(a*t) + M
 %Definición de los parámetros.
+
+
+
 T0 = 220; % Temperatura inicial de la comida
 Td=60; % Temperatura deseada
 M = 20; % Temperatura ambiente
